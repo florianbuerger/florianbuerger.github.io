@@ -1,0 +1,30 @@
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+
+    max-width: 600px;
+    margin: 4rem auto;
+}
+
+%headline {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+h1 {
+
+    font-size: $base-font-size * 1.5;
+}
+h2 {
+    font-size: $base-font-size * 1.2;
+}
+h3 {
+    font-size: $base-font-size * 1.1;
+}

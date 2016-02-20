@@ -1,0 +1,12 @@
+# Site settings
+title: Florian Bürger
+email: florian@florianbuerger.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I am Florian. I make apps while travelling the world.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://florianbuerger.com" # the base hostname & protocol for your site
+twitter_username: florianbuerger
+github_username:  florianbuerger
+
+# Build settings
+markdown: kramdown
