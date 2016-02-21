@@ -1,10 +1,14 @@
 body {
     font-family: $base-font-family;
-    font-weight: $base-font-weight;
-    font-size: $base-font-size;
+    
+    font-size: 16px;
+
+    @include respond-to(small) { font-size: 20px; }
+
     line-height: $base-line-height;
     color: $text-color;
     background-color: $background-color;
+    -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -13,46 +17,61 @@ body {
     font-kerning: normal;
 }
 
-.site {
+.site { 
     max-width: 800px;
-    margin: 4rem auto;
+    width: 90%;
+    margin: 4em auto;
+    @include respond-to(small) { 
+        margin-left: 5em; 
+        width: 60%;
+    }
 }
 
-.page-content {
-    margin: 0 auto;
-    width: 90%;
-    @include respond-to(small) { width: 80%; }
-    @include respond-to(medium) { width: 75%; }
-    @include respond-to(large) { width: 70%; }
+em {
+    font-style: italic;
+}
+
+strong {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    background-color: $text-color;
+    color: $background-color;
+}
+
+p {
+    margin-bottom: 1em;
+    @include respond-to(small) { margin-bottom: 1.5em; }
 }
 
 .headline {
-    font-weight: bold;
+    font-weight: bolder;   
     margin-top: 2.5em;
     margin-bottom: 0.5em;
 }
 h1 {
     @extend .headline;
-    font-size: $base-font-size * 1.5;
+    font-size: 150%;
 }
 h2 {
     @extend .headline;
-    font-size: $base-font-size * 1.2;
-}
-h3 {
-    @extend .headline;
-    font-size: $base-font-size * 1.1;
+    font-size: 120%;
 }
 
 nav {
-    @include center-block;
+    // @include center-block;
     max-width: 400px;
+    margin-bottom: 4em;
+    a {
+        text-decoration: none;
+    }
     .logo {
         margin-bottom: 2em;
         width: 80%;
     }
     ul {
-        text-align: center;
+        // text-align: center;
         list-style-type: none;
         overflow: hidden;
     }
@@ -65,13 +84,67 @@ nav {
     }
 }
 
-a {
-    color: $highlight-color;
+.cta {
+    color: $highlight-color !important;
 }
 
-.call-to-action {
-    margin: 3em auto;
-    text-align: center;
-    font-weight: bold;
+.minimal-link {
+    text-decoration: none;
 }
 
+a:link, a:visited {
+    color: $text-color;
+}
+
+.post-list {
+
+}
+.post-list-entry {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.post-meta {
+    color: $light-text-color;
+    font-size: 80%;
+}
+.post-list-excerpt {
+    margin-top: 1em;
+    margin-bottom: 0;
+    @include respond-to(small) { margin-bottom:5em; }
+}
+
+blockquote {
+    font-style: italic;
+    color: $light-text-color;
+    border-left: 1px solid $light-text-color;
+    padding-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    font-size: 70%;
+    color: $light-text-color;
+    p {
+        padding: 0;
+        margin: 0;   
+    }
+}
+
+.footer-divider {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    border-top: 1pt solid $lighter-text-color;
+    width: 50%;
+}
+
+.contact {
+    margin-bottom: 2em;
+}
+.contact-service {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    text-transform: uppercase;
+    width: 6em;
+    display: inline-block;
+}
