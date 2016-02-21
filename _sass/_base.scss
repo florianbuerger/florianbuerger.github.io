@@ -5,7 +5,7 @@ body {
 
     @include respond-to(small) { font-size: 20px; }
 
-    line-height: $base-line-height;
+    line-height: 1.5
     color: $text-color;
     background-color: $background-color;
     -webkit-font-smoothing: antialiased;
