@@ -10,3 +10,6 @@ github_username:  florianbuerger
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - node_modules
