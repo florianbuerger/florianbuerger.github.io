@@ -13,3 +13,4 @@ markdown: kramdown
 
 exclude:
   - node_modules
+  - css
