@@ -12,6 +12,7 @@ permalinks: pretty
 
 gems:
   - jekyll-minifier
+  - jekyll-feed
 
 jekyll-minifier:
   exclude: 'feed.xml'
