@@ -10,6 +10,12 @@ github_username:  florianbuerger
 markdown: kramdown
 permalinks: pretty
 
+gems:
+  - jekyll-minifier
+
+jekyll-minifier:
+  exclude: 'feed.xml'
+
 navigation:
   - title: start here
     url: /
@@ -19,3 +25,8 @@ navigation:
     url: /blog
   - title: my story
     url: /about
+
+exclude:
+  - CNAME
+  - Readme.md
+  - Gemfile*
