@@ -1,1 +1,1 @@
-My personal website. Run `bundle exec guard` to build it.
+My personal website. Run `bundle exec jekyll -w --incremental` to build it.
