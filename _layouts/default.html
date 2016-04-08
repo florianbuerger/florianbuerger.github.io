@@ -3,15 +3,30 @@
 
   {% include head.html %}
 
-  <body class="site mx-auto px2">
+  <body class="site">
 
     {% include header.html %}
 
-    <main class="blog max-height">
+    <main class="site-content">
         {{ content }}
     </main>
 
     {% include footer.html %}
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var pathname = window.location.pathname;
+
+    $("nav a").each(function(index) {
+        if (pathname.toUpperCase().indexOf($(this).text().toUpperCase()) != -1)
+            $(this).addClass("current");
+    });
+
+    if ($("a.current").length == 0)
+        $("a#index").addClass("current");
+});
+</script>
 
   </body>
 

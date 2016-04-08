@@ -2,9 +2,8 @@
 layout: post
 title: iTunes Connect & TestFlight
 date: '2015-06-06T10:56:20+02:00'
-tags: []
-tumblr_url: http://log.florianbuerger.com/post/120841866963/itunes-connect-testflight
 ---
+
 When we started a new project some months ago we tried to embrace Apple’s new technologies and services. We started the project in Swift, knowing there will be bumps along the way (we switched back to Objective-C after ~ 3 weeks struggling with Swift’s tooling, but that deserves a post on its own). We abandoned HockeyApp in favour of Apple’s own TestFlight. The client wasn’t willing to purchase an enterprise developer account in addition to the normal developer account to avoid struggling with iOS UUIDs for beta testing. Normally we’d provide our own (enterprise) developer account for beta testing via HockeyApp but the client didn’t want that either.
 
 Yesterday, the first alpha milestone was due. We had an iOS developer account that was a team member of the clients iOS developer organisation. We were able to build and sign the application using their certificates and provision profiles. No big deal. In the past, we would upload the resulting .ipa file to HockeyApp, allow downloading for our internal testers only and—after the QA is finished—send out the alpha for the client to test on their own.
@@ -32,7 +31,7 @@ We asked the client to remove our iTunes Connect user and recreate him again, th
 
 The only way to talk to Apple to suggest enhancements on their products is to file radars. This process is discouraging, to say the least. Most of the time the radars are closed or being marked as a duplicate and nothing will ever happen. But we shouldn’t lose hope.
 
-If you can relate to our issues, please dupe the radar to let Apple know:[rdar://21272576](rdar://21272576)
+If you can relate to our issues, please dupe the radar to let Apple know: [rdar://21272576](rdar://21272576)
 
 By the way, the easiest way to duplicate a radar is to use the free Mac app [QuickRadar](). It is awesome!
 

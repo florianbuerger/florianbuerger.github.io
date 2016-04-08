@@ -2,9 +2,8 @@
 layout: post
 title: My grandpa and his not so smart TV
 date: '2014-03-23T20:27:00+01:00'
-tags: []
-tumblr_url: http://log.florianbuerger.com/post/120842946573/my-grandpa-and-his-not-so-smart-tv
 ---
+
 Today I used one of those “SmartTV” for the first time for more than just one minute and for more than just the ON/OFF switch. It was a horrible experience. Let me tell you a story of my grandpa and the problem of bad design.
 
 My grandpa is 92 years old. He bought his first ever computer three years ago and taught himself how to use it. He is now able to unload the pictures of his DSLR onto the computer, process them, add some text and send those photos to his grandchildren. On a Windows XP machine! Using a pretty bad photo management software from Nikon that came bundled with his camera. So he is interested in new technology. I think that alone is remarkable. I know, he should have bought a Mac but sadly he didn’t listen to me.

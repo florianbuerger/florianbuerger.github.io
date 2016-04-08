@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog
+---
+
+<ul class="post-list list-reset">
+  {% for post in site.posts %}
+    <li class="post-list-entry">
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+    	<h1 class="post-title">{{ post.title }}</h1>
+        <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p><a href="{{ post.url }}">Read more…</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,7 +1,15 @@
 <header class="site-header">
-  <nav class="flex my4">
-    <a href="/" title="Return to the homepage" class="bold mr4 text-decoration-none">Florian Bürger</a>
-    <a href="/blog" class="mx2 text-decoration-none">Writing</a>
-    <a href="/hire" class="mx2 text-decoration-none">Hire me</a>
-  </nav>
+<nav class="nav">
+  {% for item in site.navigation %}
+      {% assign class = nil %}
+      {% if page.url contains item.url %}
+      	{% unless item.url == '/' %}	
+          {% assign class = 'active' %}
+        {% endunless %}
+      {% endif %}
+      <a href="{{ item.url }}" class="{{ class }}">
+          {{ item.title }}
+      </a>
+  {% endfor %}
+</nav>
 </header>

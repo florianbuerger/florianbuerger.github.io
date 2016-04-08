@@ -1,16 +1,17 @@
 ---
-permalink: /hire/
 title: Hire me
 layout: default
 ---
 
-# Hire me
+*You have an idea for an awesome app?*
 
-You have an idea for an awesome app? You have an existing app that has some issues or could be improved? Or maybe you have an app thank is going very well and you are not sure why?
+*You have an existing app that has some issues or could be improved?*
 
-If any of the above is true, you should [contact me](mailto:project@florianbuerger.com). I will help you to build out that idea, advise you how your app could be improved or help your engineering team with the implementation. 
+*Or maybe you have an app that is doing very well and you are not sure why?*
 
-I am available for iOS and Mac OS X development as well as any kind of software design consulting.
+If any of the above is true, you should [contact me](mailto:hi@florianbuerger.com?subject=Project inquiry). I will help you to build out that idea, advise you how your app could be improved or help your engineering team with the implementation.
+
+I am available for iOS and Mac OS X development as well as any kind of software design.
 
 # Rates
 
@@ -24,6 +25,4 @@ Talk to my friends at [fortyone](http://fortyone.io) if you need more work done 
 
 # Legal
 
-You need to sign my consulting agreement. It has an NDA agreement included. [Here is a sample](/share/sample-agreement.pdf) of what this agreement could look like.
-
-<div class="call-to-action"><a href="mailto:hi@florianbuerger.com">Email me</a></div>
+You need to sign my consulting agreement. It has an NDA agreement included. <!-- [Here is a sample](/share/sample-agreement.pdf) of what this agreement could look like. -->
