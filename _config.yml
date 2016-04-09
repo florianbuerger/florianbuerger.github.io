@@ -18,6 +18,8 @@ jekyll-minifier:
 navigation:
   - title: start here
     url: /
+  - title: work
+    url: /work
   - title: hire me
     url: /hire
   - title: blog
