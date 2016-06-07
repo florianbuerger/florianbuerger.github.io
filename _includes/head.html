@@ -6,11 +6,12 @@
   <title>{% if page.title %}{{ page.title | escape }} — {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<!--   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+ -->  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <style type="text/css">
-  *{box-sizing:border-box;margin:0}body{font-size:16px;font-family:Georgia,serif;line-height:1.5;text-rendering:optimizeLegibility}@media screen and (min-width:40em){body{font-size:20px;font-family:Georgia,serif;line-height:1.5;text-rendering:optimizeLegibility}}.site{max-width:40rem;width:90%;margin:4rem 10% 6rem}h1,p{margin-bottom:1rem}a:hover{color:inherit}h1{font-size:2rem;line-height:1.2;margin-top:2.5rem}h2{margin-top:2rem;margin-bottom:.5rem;font-size:1.5rem}p{max-width:90%}p:last-child{margin-bottom:3rem}.list-reset{list-style:none;margin:0;padding:0}.index{font-size:2rem}.index p{margin-bottom:2rem}.post-list-entry{margin-bottom:6rem}.post-meta{font-size:.8rem;color:gray;margin-bottom:-1rem}.post-content{margin-top:3rem;font-size:1.2rem;line-height:1.7}.site-header{margin-bottom:4rem}.active{font-weight:700}.nav{display:flex}.nav a{margin-right:1.5rem;text-decoration:none}.site-footer{margin-top:8rem;font-size:.9rem}</style>
+  *{box-sizing:border-box;margin:0}body{font-size:16px;font-family:Georgia,serif;line-height:1.5;text-rendering:optimizeLegibility}@media screen and (min-width:40em){body{font-size:20px;font-family:Georgia,serif;line-height:1.5;text-rendering:optimizeLegibility}}code,pre{font-family:Menlo,monospace;font-size:1.1rem}.site{max-width:40rem;width:90%;margin:4rem 10% 6rem}h1,p{margin-bottom:1rem}a:hover{color:inherit}h1{font-size:2rem;line-height:1.2;margin-top:2.5rem}h2{margin-top:2rem;margin-bottom:.5rem;font-size:1.5rem}p{max-width:90%}p:last-child{margin-bottom:3rem}.list-reset{list-style:none;margin:0;padding:0}.index{font-size:2rem}.index p{margin-bottom:2rem}.post-list-entry{margin-bottom:6rem}.post-meta{font-size:.8rem;color:gray;margin-bottom:-1rem}.post-content{margin-top:3rem;font-size:1.2rem;line-height:1.7}.site-header{margin-bottom:4rem}.active{font-weight:700}.nav{display:flex}.nav a{margin-right:1.5rem;text-decoration:none}.site-footer{margin-top:8rem;font-size:.9rem}
+  </style>
 
 </head>

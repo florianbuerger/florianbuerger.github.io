@@ -18,6 +18,11 @@ body {
   }
 }
 
+pre, code {
+  font-family: Menlo, monospace;
+  font-size: 1.1rem;
+}
+
 .site {
   margin-left: 10%;
   margin-right: 10%;

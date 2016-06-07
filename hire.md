@@ -15,7 +15,7 @@ I am available for iOS and Mac OS X development as well as any kind of software 
 
 # Rate
 
-My rate is $150 per hour for short term projects or smaller chunks of work. If you need more work done, we should talk. I'll require half down payment up font.
+My rate is `80€` per hour for short term projects or smaller chunks of work. If you need more work done, we should talk. I'll require half down payment up font.
 
 # Availability
 
