@@ -97,8 +97,6 @@ p:last-child {
 
 .site-footer {
   margin-top: 8rem;
+  color: gray;
   font-size: 0.9rem;
-}
-.site-footer ul {
-
 }
