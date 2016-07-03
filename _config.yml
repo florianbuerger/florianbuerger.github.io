@@ -31,3 +31,12 @@ exclude:
   - CNAME
   - Readme.md
   - Gemfile*
+  - node_modules
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
