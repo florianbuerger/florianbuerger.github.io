@@ -5,21 +5,20 @@
 
 body {
   font-size: 16px;
-  font-family: "Georgia", serif;
+  font-family: -apple-system, Helvetica, sans-serif;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
 @media screen and (min-width: 40em) {
   body {
     font-size: 20px;
-    font-family: "Georgia", serif;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
   }
 }
 
 pre, code {
-  font-family: Menlo, monospace;
+  font-family: 'SF Mono', Menlo, monospace;
   font-size: 1.1rem;
 }
 
