@@ -10,17 +10,19 @@ permalink: /hire/
 
 *Or maybe you have an app that is doing very well and you are not sure why?*
 
-If any of the above is true, you should [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to build out that idea, advise you how your app could be improved or help your engineering team with the implementation.
+If any of the above is true, you should [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to bring that idea to life, advise you how your app could be improved or help your engineering team with the implementation.
 
 I am available for iOS and Mac OS X development as well as any kind of software design.
 
-I develop Apps full time for the Apple platform since the first release of the iPhone. Back then, iOS was called iPhone OS and web apps were the “swee solution” for apps on iPhone. iPhone
+I develop Apps full time for the Apple platform since the first release of the iPhone. Back then, iOS was called iPhone OS and web apps were the “sweet solution” for apps on iPhone.
+
+# FAQ
 
 ## How can I get in touch with you?
 
 I'm [@florianbuerger](https://twitter.com/florianbuerger) on Twitter. You can [email me](mailto:florian@florianbuerger.com) or send an iMessage to `florian@florianbuerger.com`.
 
-## Rate
+## How much do you charge?
 
 My rate is `80€`/hour or `3,000€`/week for short term projects or smaller chunks of work. If you need more work done, contact me and I am sure we can work something out. 
 
@@ -36,7 +38,7 @@ Usually I write unit tests only for the model and controller layer. UI tests are
 
 ## Can you design?
 
-Yes, I am happy to help there as well. Most of the time I work in Sketch or Affinity Designer but if you or your client require Adobe Photoshop that is okay too. If you need illustration work, my [lovely wife](http://verenaortlieb.com) should join the project.
+Yes, I am happy to help there as well. Most of the time I work in Sketch or Affinity Designer but if you or your client require Adobe Photoshop that is okay too. If you need illustration work, my [lovely wife](http://www.verenaortlieb.com) should join the project.
 
 ## Will you use any cross-platform technologies?
 
