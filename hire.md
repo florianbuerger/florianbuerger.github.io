@@ -1,6 +1,7 @@
 ---
 title: Hire me
 layout: default
+permalink: /hire/
 ---
 
 *You have an idea for an awesome app?*
@@ -9,20 +10,42 @@ layout: default
 
 *Or maybe you have an app that is doing very well and you are not sure why?*
 
-If any of the above is true, you should [contact me](mailto:hi@florianbuerger.com?subject=Project inquiry). I will help you to build out that idea, advise you how your app could be improved or help your engineering team with the implementation.
+If any of the above is true, you should [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to build out that idea, advise you how your app could be improved or help your engineering team with the implementation.
 
 I am available for iOS and Mac OS X development as well as any kind of software design.
 
-# Rate
+I develop Apps full time for the Apple platform since the first release of the iPhone. Back then, iOS was called iPhone OS and web apps were the “swee solution” for apps on iPhone. iPhone
 
-My rate is `80€` per hour for short term projects or smaller chunks of work. If you need more work done, we should talk. I'll require half down payment up font.
+## How can I get in touch with you?
 
-# Availability
+I'm [@florianbuerger](https://twitter.com/florianbuerger) on Twitter. You can [email me](mailto:florian@florianbuerger.com) or send an iMessage to `florian@florianbuerger.com`.
 
-Normally I am limited to 30 hours per week. More time may be available upon request.
+## Rate
 
-Talk to my friends at [fortyone](http://fortyone.io) if you need more work done sooner.
+My rate is `80€`/hour or `3,000€`/week for short term projects or smaller chunks of work. If you need more work done, contact me and I am sure we can work something out. 
 
-# Legal
+## What technologies do you use?
+
+Nowadays I try to write new code in Swift as much as possible. I know the transition to Swift 3 will be big in the coming months but I think it is worth it. Swift is clearly the future. Of course, Objective-C won't go away any time soon. 
+
+Since I programmed exclusively in Objective-C for the past years I retain a deep understanding of the language and nearly all Cocoa Touch frameworks.
+
+I tend to stick to Apple iOS architecture guidelines as close as possible. Sometimes it may not be the most elegant solution but it gets the job done and minimizes maintenance work in future OS releases.
+
+Usually I write unit tests only for the model and controller layer. UI tests are awesome but require a huge amount of setup work and maintainance. They are suitable if I work on one project for a long time over many releases but most of the time they aren't worth the time investment. I use them to automate taking screenshots tought (thanks to [fastlane](https://fastlane.tools)).
+
+## Can you design?
+
+Yes, I am happy to help there as well. Most of the time I work in Sketch or Affinity Designer but if you or your client require Adobe Photoshop that is okay too. If you need illustration work, my [lovely wife](http://verenaortlieb.com) should join the project.
+
+## Will you use any cross-platform technologies?
+
+No, I am only coding natively in Swift and Objective-C. I am willing to look at [React Native](https://facebook.github.io/react-native/) if you can make a reeeaally compelling case for it.
+
+## Where are you located?
+
+My business is registered in Germany but currently I am travelling the world with my wife. I am willing to adopt your time zone for meetings or pair programming sessions if required.
+
+## Legal
 
 You need to sign my consulting agreement. It has an NDA agreement included. <!-- [Here is a sample](/share/sample-agreement.pdf) of what this agreement could look like. -->

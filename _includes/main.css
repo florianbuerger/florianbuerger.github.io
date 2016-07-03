@@ -31,6 +31,15 @@ pre, code {
   width: 90%;  
 }
 
+.avatar-frame{border: 2px solid #fff;}
+.avatar-frame,.avatar-frame img{
+	width: 250px;
+	height: 250px;
+	-webkit-border-radius: 125px; /* Saf3+, Chrome */
+	border-radius: 125px; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 30px;  Disabled for FF1+ */
+}
+
 a:hover {
   color: inherit;
 }

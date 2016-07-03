@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-avatar
 title: Most software today is way to complicated
 permalink: /about/
 ---
@@ -13,4 +13,4 @@ I started <del>iPhone OS</del>, nay iOS development back in 2007 when the first 
 <br/>
 <br/>
 
-If you feel friendly say [Hi!](mailto:hi@florianbuerger.com?subject=Hi!)
+If you feel friendly say [Hi!](mailto:florian@florianbuerger.com?subject=Hi!)
