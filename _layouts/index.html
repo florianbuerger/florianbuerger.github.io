@@ -11,10 +11,12 @@ layout: compress
   <body class="site" onload="return randomizeLinkColor()">
 
     <main class="index site-content">
-        {{ content }}
+        <img src="/img/avatar.png" class="avatar" data-rjs="3" alt="Picture of Florian Bürger"> 
+      {{ content }}
     </main>
 
     {% include randomizeLinkColor.html %}
+    {% include retina-images.html %}
 
   </body>
 
