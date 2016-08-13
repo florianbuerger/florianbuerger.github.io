@@ -1,13 +1,20 @@
+---
+layout: compress
+---
+
+
 <!DOCTYPE html>
 <html>
 
   {% include head.html %}
 
-  <body class="site">
+  <body class="site" onload="return randomizeLinkColor()">
 
     <main class="index site-content">
         {{ content }}
     </main>
+
+    {% include randomizeLinkColor.html %}
 
   </body>
 
