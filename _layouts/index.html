@@ -8,15 +8,14 @@ layout: compress
 
   {% include head.html %}
 
-  <body class="site" onload="return randomizeLinkColor()">
+  <body class="site">
 
     <main class="index site-content">
-        <img src="/img/avatar.png" class="avatar" data-rjs="3" alt="Picture of Florian Bürger"> 
+        <img src="/img/avatar.png" data-rjs="3" class="avatar" alt="Picture of Florian Bürger"> 
       {{ content }}
     </main>
 
-    {% include randomizeLinkColor.html %}
-    {% include retina-images.html %}
+    {% include javascript.html %}
 
   </body>
 
