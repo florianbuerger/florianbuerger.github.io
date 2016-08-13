@@ -24,8 +24,6 @@ navigation:
     url: /hire
   - title: blog
     url: /blog
-  - title: my story
-    url: /about
 
 exclude:
   - CNAME

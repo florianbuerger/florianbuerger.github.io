@@ -6,29 +6,34 @@
 body {
   font-size: 16px;
   font-family: -apple-system, Helvetica, sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
   text-rendering: optimizeLegibility;
-}
-@media screen and (min-width: 40em) {
-  body {
-    font-size: 20px;
-    line-height: 1.5;
-    text-rendering: optimizeLegibility;
-  }
-}
-
-pre, code {
-  font-family: 'SF Mono', Menlo, monospace;
-  font-size: 1.1rem;
+  color: #555;
 }
 
 .site {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 4rem;
-  margin-bottom: 6rem;
-  max-width: 40rem;
+  margin: 2rem auto;
   width: 90%;  
+}
+@media screen and (min-width: 40rem) {
+	.site {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    max-width: 50rem;
+		font-size: 1.6rem;
+	}
+}
+
+pre, code {
+  font-family: 'SFMono-Regular', Menlo, monospace;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+h1, h2, strong {
+  color: #333;
 }
 
 .avatar-frame{border: 2px solid #fff;}
@@ -70,15 +75,10 @@ p:last-child {
   padding: 0;
 }
 
-.index {
-  font-size: 2rem;
-}
 .index p {
   margin-bottom: 2rem;
 }
 
-.post-list {
-}
 .post-list-entry {
   margin-bottom: 6rem;
 }
@@ -100,8 +100,14 @@ p:last-child {
   display: flex;
 }
 .nav a {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   text-decoration: none;
+}
+@media screen and (min-width: 40rem) {
+	.nav a {
+    margin-right: 3rem;
+    text-decoration: none;
+  }
 }
 
 .site-footer {
