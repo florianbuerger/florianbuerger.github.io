@@ -92,6 +92,18 @@ p:last-child {
     color: gray;
     margin-bottom: -1rem;
 }
+.post-image--center {
+    margin-left: auto;
+    margin-top: 4rem;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    display: block;
+}
+.post-image-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
 
 .site-header {
     margin-bottom: 4rem;
