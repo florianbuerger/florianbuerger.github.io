@@ -30,6 +30,7 @@ exclude:
   - Readme.md
   - Gemfile*
   - node_modules
+  - vendor
 
 sass:
   style: compressed
