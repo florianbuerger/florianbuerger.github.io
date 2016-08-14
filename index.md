@@ -10,6 +10,6 @@ If you came here **looking for help** to build your new idea or improve your exi
 
 As you may have guessed from this layout I like to keep things as simple as possbile. My free time is spent **bouldering**, jogging, mountain biking or whatever sport the current location is offering. 
 
-Far too infrequent I write something on my [blog](/blog). If social media is more your thing you can follow me on [Twitter](https://twitter.com/florianbuerger). 
+Far too infrequent I write something on my [blog]({{site.url}}/blog). If social media is more your thing you can follow me on [Twitter](https://twitter.com/florianbuerger). 
 
 Or [send an email](mailto:hi@florianbuerger.com?subject=Hi!) and say "Hi"!

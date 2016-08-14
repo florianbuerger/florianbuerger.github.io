@@ -7,7 +7,7 @@
           {% assign class = 'active' %}
         {% endunless %}
       {% endif %}
-      <a href="{{ item.url }}" class="{{ class }}">
+      <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="{{ class }}">
           {{ item.title }}
       </a>
   {% endfor %}
