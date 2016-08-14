@@ -41,4 +41,4 @@ Sadly, it isn’t available at the App Store anymore. The client didn’t want t
 
 **[Tower](https://git-tower.com)**. Beautiful Git client from fournova right here from Stuttgart, Germany. I  did the initial UI development for the 2.0 release.
 
-**[DB Navigator](https://itunes.apple.com/us/app/db-navigator/id343555245?mt=8)**. I worked on an older version of that app. Used by thousand of people every day.
+**[DB Navigator](https://itunes.apple.com/de/app/db-navigator/id343555245?mt=8)**. I worked on an older version of that app. Used by thousand of people every day.
