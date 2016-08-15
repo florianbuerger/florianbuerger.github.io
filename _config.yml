@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://www.florianbuerger.com"
 
 markdown: kramdown
-permalinks: pretty
+permalink: /:title
 
 gems:
   - jekyll-feed
