@@ -12,15 +12,15 @@ permalink: /hire/
 
 If any of the above is true, you should [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to bring that idea to life, advise you how your app could be improved or help your engineering team with the implementation.
 
-I am available for iOS and Mac OS X development as well as any kind of software design.
+I am available for iOS and Mac OS X development as well as any kind of software design. As I am learning other platforms as well I will take on smaller web front-end or Android projects.
 
-I develop Apps full time for the Apple platform since the first release of the iPhone. Back then, iOS was called iPhone OS and web apps were the “sweet solution” for apps on iPhone.
+I develop Apps full time for the Apple platform since the first release of  iPhone. Back then, iOS was called iPhone OS and web apps were the “sweet solution” for apps on iPhone.
 
 # FAQ
 
 ## How can I get in touch with you?
 
-I'm [@florianbuerger](https://twitter.com/florianbuerger) on Twitter. You can [email me](mailto:florian@florianbuerger.com) or send an iMessage to `florian@florianbuerger.com`.
+I'm [@florianbuerger](https://twitter.com/florianbuerger) on Twitter. You can [email me](mailto:florian@florianbuerger.com?subject=Hire) or send an iMessage to `florian@florianbuerger.com`.
 
 ## How much do you charge?
 
@@ -36,9 +36,11 @@ I tend to stick to Apple iOS architecture guidelines as close as possible. Somet
 
 Usually I write unit tests only for the model and controller layer. UI tests are awesome but require a huge amount of setup work and maintainance. They are suitable if I work on one project for a long time over many releases but most of the time they aren't worth the time investment. I use them to automate taking screenshots tought (thanks to [fastlane](https://fastlane.tools)).
 
+For web projects I try to keep the amount of tools and frameworks as small as possible. I am a big fan of [Jekyll](https://jekyllrb.com), which I used to build this site. I am playing around with `React` but I am still overwhelmed by the sheir amount of bits and pieces _required_ for a modern web app.
+
 ## Can you design?
 
-Yes, I am happy to help there as well. Most of the time I work in Sketch or Affinity Designer but if you or your client require Adobe Photoshop that is okay too. If you need illustration work, my [lovely wife](http://www.verenaortlieb.com) should join the project.
+Yes, I am happy to help there as well. Most of the time I work in Sketch or Affinity Designer but if you or your client require Adobe Photoshop that is okay too. If you need illustration work, my [lovely wife](https://www.verenaortlieb.com) should join the project.
 
 ## Will you use any cross-platform technologies?
 
@@ -51,3 +53,7 @@ My business is registered in Germany but currently I am travelling the world wit
 ## Legal
 
 You need to sign my consulting agreement. It has an NDA agreement included. <!-- [Here is a sample](/share/sample-agreement.pdf) of what this agreement could look like. -->
+
+## That's it
+
+**[Email me](mailto:hi@florianbuerger.com?subject=Hire)** and I am sure we can work something out. I am looking forward to her from you!
