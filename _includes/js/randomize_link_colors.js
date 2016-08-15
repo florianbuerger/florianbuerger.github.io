@@ -5,7 +5,13 @@ function randomize_link_colors() {
     var links = document.getElementsByTagName('a');
     for (var index = 0; index < links.length; ++index) {
         var link = links[index];
-        link.style.color = color
+        if (!hasClass(link, 'invisible-link')) {
+            link.style.color = color;
+        } 
     }        
+
+    function hasClass(element, cls) {
+        return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+    }
 }
 
