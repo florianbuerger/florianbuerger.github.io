@@ -8,7 +8,8 @@ title: Blog
     <li class="post-list-entry">
         <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></p>
         <a href="{{post.url | prepend: site.url}}" class="invisible-link"><h1 class="post-title">{{ post.title }}</h1></a>
-        <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p><a href="{{ post.url }}">Read more…</a>
+        <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p><a
+          href="{{ post.url | prepend: site.url }}">Read more…</a>
     </li>
   {% endfor %}
 </ul>
