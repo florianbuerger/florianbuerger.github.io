@@ -8,6 +8,7 @@ body {
     font-family: -apple-system, Helvetica, sans-serif;
     line-height: 1.4;
     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     color: #555;
 }
 
@@ -17,11 +18,12 @@ body {
     margin-bottom: 10rem;
     margin-left: auto;
     width: 85%;  
+    font-size: 1.2rem;
 }
 @media screen and (min-width: 40rem) {
     .site {
         max-width: 50rem;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
 
