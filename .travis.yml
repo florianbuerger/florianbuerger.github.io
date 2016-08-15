@@ -4,8 +4,6 @@ rvm:
 
 before_install:
   - echo $TRAVIS_COMMIT_RANGE
-    # Copy proselint settings to home.
-  - cp .proselintrc ~/
 
 script:
   - bundle exec jekyll build
