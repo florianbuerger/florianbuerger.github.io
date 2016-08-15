@@ -33,7 +33,7 @@ pre, code {
     white-space: pre-wrap;
 }
 
-h1, h2, strong {
+h1, h2, strong, .strong {
     color: #333;
 }
 
@@ -87,6 +87,11 @@ p:last-child {
 
 .post-list-entry {
     margin-bottom: 6rem;
+}
+
+.invisible-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .post-meta {
