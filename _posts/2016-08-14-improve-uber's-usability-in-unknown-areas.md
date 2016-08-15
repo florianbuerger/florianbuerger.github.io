@@ -16,12 +16,11 @@ part of the address the street is. I have no way to confirm that I entered
 the right destination. I can't even see if my destination is in the right
 district. 
 
-<section class="post-image-container" markdown="1">
-
-![Screenshot of Uber's
-autocompletion]({{site.url}}/img/{{page.images}}/search.png) ![Screenshot of
-Uber's pickup confirmation screen]({{site.url}}/img/{{page.images}}/confirm.png)
-
+<section class="post-image-container">
+    <img src="{{site.url}}/img/{{page.images}}/search.png" data-rjs="2"
+    alt="Screenshot of Uber's autocompletion">
+    <img src="{{site.url}}/img/{{page.images}}/confirm.png" data-rjs="2"
+    alt="Screenshot of Uber's pickup confirmation screen">
 </section>
 
 ## Proposed solution
@@ -32,8 +31,8 @@ driver is requested as usual. This workflow wouldn't get in your way if you're
 certain about your input but it would be tremendously helpful if you don't have
 a clue. And every navigation app does that so it wouldn't be unfamiliar at all. 
 
-![Mockup of solution]({{site.url}}/img/{{page.images}}/solution.png){:
-.post-image--center}
+<img src="{{site.url}}/img/{{page.images}}/solution.png" data-rjs="2"
+class="post-image--center" alt="Mockup of proposed solution">
 
 I sent the proposal to Uber, would be awesome if they'd consider it in the
 future.
