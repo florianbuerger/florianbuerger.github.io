@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I use Storyboards in iOS Projects
+title: How I Use Storyboards
 date: 2016-08-23
 ---
 
