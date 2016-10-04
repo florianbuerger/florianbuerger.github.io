@@ -1,18 +1,17 @@
 ---
-title: MacBook for iOS development?
+layout: post
+title: MacBook “One” for iOS development?
 date: 2016-10-01
-permalink: macbook 
+permalink: macbook
 ---
 
-# Macbook _One_ for iOS development
+Starting a new life as a digital nomad required some rethinking about the gear I use to develop software. In my home office in Stuttgart I used an iMac. In the shared office space I rented I took my wife's MacBook with me. I had a Thunderbolt Display on the desk. Sadly, the iMac—which was/is an awesome machine and may be one of the best Macs I've ever owned—would not be able to go around the world with me. I had to sell it.
 
-Starting a new life as a digital nomad required some rethinking about the gear I use to develop software. In my home office in Stuttgart I used an iMac. In the shared office space I rented I took my wife's MacBook with me. I had a Thunderbolt Display on the desk. Sadly, the iMac—which was/is an awesome machine and may be one of the best Macs I've ever owned—would not be able to go around the world with me. I had to sell it. 
+That left me in a bit of a dilemma. I needed to buy a laptop. Apple's MacBook Pro lineup is what most developers tend to buy. My wife has the 13" model and the size is pretty ideal. Problem is though, that the models Apple offers you to buy in the summer of 2016 are pretty old and they still cost a lot of money. I don't have a problem with paying high prices for high quality machines—there are used to get work done so it is not an expense, it is an investment—but it didn't felt right to drop more than 2,000 euros on a computer with two year old hardware inside. And rumors were rising that Apple will introduce overhauled models soon. The new model ought to be thinner and lighter than the current MacBook Pro so they should be perfect for traveling.
 
-That left me in a bit of a dilemma. I needed to buy a laptop. Apple's MacBook Pro lineup is what most developers tend to buy. My wife has the 13" model and the size is pretty ideal. Problem is though, that the models Apple offers you to buy in the summer of 2016 are pretty old and they still cost a lot of money. I don't have a problem with paying high prices for high quality machines—there are used to get work done so it is not an expense, it is an investment—but it didn't felt right to drop more than 2,000 euros on a computer with two year old hardware inside. And rumors were rising that Apple will introduce overhauled models soon. The new model ought to be thinner and lighter than the current MacBook Pro so they should be perfect for traveling. 
+On the other side I don't really care that much about performance. I don't mind if the build takes 1:32 or 2:12 minutes. As long as the machine isn't overwhelmed by every day tasks (Xcode, iOS simulator, Slack, Mail, Sketch, vim) I would be fine. And the pro line of Apple's laptops are still big, get pretty hot and offer more performance then I would ever need.
 
-On the other side I don't really care that much about performance. I don't mind if the build takes 1:32 or 2:12 minutes. As long as the machine isn't overwhelmed by every day tasks (Xcode, iOS simulator, Slack, Mail, Sketch, vim) I would be fine. And the pro line of Apple's laptops are still big, get pretty hot and offer more performance then I would ever need. 
-
-I dabbled with the idea of getting a MacBook Air for a short time. I prefer the tear drop shape of the body. They are light and performance should suffice. The only problem is they don't offer retina displays. I didn't want to go back in time and use a non-retina machine. 
+I dabbled with the idea of getting a MacBook Air for a short time. I prefer the tear drop shape of the body. They are light and performance should suffice. The only problem is they don't offer retina displays. I didn't want to go back in time and use a non-retina machine.
 
 There is another option: The MacBook. Or MacBook One as it is often called in the internet nerd cycles. It is incredible light, perfect for travel. The battery lasts longer than the one in the pro line _check_. Retina display _check_. The small display doesn't bother me. Actually it is the same physical space as the 13 inch MacBook Pro in its default setting. I can easily adapt and if I need more screen estate I can always use the iPad as a secondary monitor thanks to [Duet][1]—by the way an awesome app. I wasn't sure about the performance though. There aren't many developers online who wrote about their experience with this small laptop. Most reviews tend to focus on writers and general consumers, casually browsing the web, writing blog posts and watching videos on YouTube.
 
@@ -34,6 +33,6 @@ Enjoy your day!
 
 [^1]:	Originally I considered the rose gold model!
 
-[^2]:	I work on projects ranging about xxx lines of codes with xx number of files and a lot of dependencies through either Cocoapods or Carthage
+[^2]:	Mostly on projects that still use `CocoaPods`. I try to switch to `Carthage` these days, especially with the slow Swift compile times, precompiled frameworks are a blessing.
 
 [1]:	http://www.duetdisplay.com/
