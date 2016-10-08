@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The MacBook “One”
+title: The MacBook
 date: 2016-10-01
 permalink: macbook
 images: macbook-one
