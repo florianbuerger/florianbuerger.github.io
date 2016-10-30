@@ -24,11 +24,11 @@ I'm [@florianbuerger](https://twitter.com/florianbuerger) on Twitter. You can [e
 
 ## How much do you charge?
 
-My rate is `80€`/hour or `3,000€`/week for short term projects or smaller chunks of work. If you need more work done, contact me and I am sure we can work something out. 
+My rate is `80€`/hour or `3,000€`/week for short term projects or smaller chunks of work. If you need more work done, contact me and I am sure we can work something out.
 
 ## What technologies do you use?
 
-Nowadays I try to write new code in Swift as much as possible. I know the transition to Swift 3 will be big in the coming months but I think it is worth it. Swift is clearly the future. Of course, Objective-C won't go away any time soon. 
+Nowadays I try to write new code in Swift as much as possible. I know the transition to Swift 3 will be big in the coming months but I think it is worth it. Swift is clearly the future. Of course, Objective-C won't go away any time soon.
 
 Since I programmed exclusively in Objective-C for the past years I retain a deep understanding of the language and nearly all Cocoa Touch frameworks.
 
@@ -48,7 +48,7 @@ No, I am only coding natively in Swift and Objective-C. I am willing to look at 
 
 ## Where are you located?
 
-My business is registered in Germany but currently I am travelling the world with my wife. I am willing to adopt your time zone for meetings or pair programming sessions if required.
+My business is registered in Germany but currently I am traveling the world with my wife. I am willing to adopt your time zone for meetings or pair programming sessions if required.
 
 ## Legal
 
@@ -56,4 +56,4 @@ You need to sign my consulting agreement. It has an NDA agreement included. <!--
 
 ## That's it
 
-**[Email me](mailto:hi@florianbuerger.com?subject=Hire)** and I am sure we can work something out. I am looking forward to her from you!
+[Email me](mailto:hi@florianbuerger.com?subject=Hire) and I am sure we can work something out. I am looking forward to hear from you!
