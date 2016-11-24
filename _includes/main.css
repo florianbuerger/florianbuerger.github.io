@@ -10,7 +10,7 @@ body {
     line-height: 1.4;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    color: #555;
+    color: #000;
 }
 
 .site {
@@ -38,7 +38,7 @@ pre, code {
 
 
 h1, h2, strong, .strong {
-    color: #333;
+    color: #000;
 }
 
 .avatar {
@@ -156,3 +156,15 @@ ol {
         -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
 }
+
+blockquote {
+  margin: 2rem;
+  color: #999;
+  font-style: italic;
+  border-left: 2px solid #999;
+  padding-left: 0.75rem;
+}
+  blockquote p:last-child,
+  blockquote p {
+    margin-bottom: 0;
+  }
